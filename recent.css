@@ -1,0 +1,58 @@
+body {
+    background-color: #FDD9B7;
+    font-family: 'Lusitana', serif;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.recent1 {
+    padding: 15px;
+}
+
+.recent2 {
+    padding: 15px;
+}
+
+.recent3 {
+    padding: 15px;
+}
+
+/*
+.recent {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:40%;
+  border-radius: 5px;
+font-family: 'Lusitana', serif;
+    background-color: white;
+
+}
+
+h2 {
+    font-family: 'Lusitana', serif;
+}
+.recent:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+    background-color: white;
+}
+
+*/
+.navbar {
+    background-color:black;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+@media
+    

@@ -1,0 +1,60 @@
+navbar {
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Gentium Book Basic', serif;
+    
+}
+
+/* w3schools responsive navbar example */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.navbar a.active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+    
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar.response {
+        position: relative; 
+    }
+    
+    .navbar.response a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .navbar.response a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+]

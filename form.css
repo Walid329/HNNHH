@@ -1,0 +1,54 @@
+.top{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Gentium Book Basic', serif; 
+}
+
+body {
+    background-color: #FDD9B7;
+    font-family: 'Lusitana', serif;
+    overflow: auto;
+    padding-bottom: 75px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+color: black;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-color: black;
+margin-bottom: 40px;
+}
