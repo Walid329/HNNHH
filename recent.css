@@ -1,6 +1,8 @@
 body {
     background-color: #FDD9B7;
     font-family: 'Lusitana', serif;
+    margin-bottom: 65px;
+    padding-bottom: 20px;
 }
 
 .container {
