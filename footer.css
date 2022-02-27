@@ -11,6 +11,10 @@
     overflow: hidden;
 }
 
+.footer p {
+    font-size: 10px;
+}
+
 ul {
     list-style-type: none;
     margin: o;
@@ -39,12 +43,13 @@ li a:hover {
 }
 
 /* responsive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .footer li {
         font-size: 10px;
         text-align: left;
         padding: 2px;
         margin-bottom: 0px;
+        display: block;
     }
     .footer ul {
         margin-bottom: 0px;
@@ -54,5 +59,6 @@ li a:hover {
     }
     .footer p {
         margin-bottom: 0px;
+        font-size: 9px;
     }
 }
