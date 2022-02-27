@@ -108,20 +108,20 @@ font-size:30px;
 
 @media screen and (max-width: 700px) {
     .footer li {
-        font-size: 10px;
         text-align: left;
         padding: 2px;
         margin-bottom: 0px;
         display: block;
+        font-size: 8px;
     }
     .footer ul {
         margin-bottom: 0px;
-        font-size: 10px;
+        font-size: 8px;
         margin-top: 0px;
-        font-size: 15px;
+        font-size: 8px;
     }
     .footer p {
         margin-bottom: 0px;
-        font-size: 9px;
+        font-size: 8px;
     }
 }
