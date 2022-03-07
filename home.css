@@ -1,6 +1,12 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #FDD9B7;
-    margin-bottom: 70px;
+     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -106,6 +112,10 @@ font-size:30px;
     font-size: 10px;
 }
 
+.footer {
+    margin-top: auto;
+}
+
 @media screen and (max-width: 700px) {
     .footer li {
         text-align: left;
@@ -114,6 +124,11 @@ font-size:30px;
         display: block;
         font-size: 8px;
     }
+    
+    .footer {
+        padding: 2px;
+    }
+    
     .footer ul {
         margin-bottom: 0px;
         font-size: 8px;

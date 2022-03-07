@@ -153,3 +153,7 @@ background: #FDD9B7
     padding: 20px;
     box-sizing: border-box;
 }
+
+footer {
+    background-color: black;
+}
